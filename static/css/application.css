@@ -1,0 +1,158 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  margin-left: 0;
+  max-width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.sidebar-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 100px;
+  background: green;
+}
+
+.content-container {
+  display: flex;
+  flex-grow: 1;
+  background-color: lightskyblue;
+  padding-left: 50px;
+  padding-top: 20px;  
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.video-container {
+  background-color: black;
+  width: 100%;
+  margin-right: 50px;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#chat-text {
+  overflow: auto;
+  height: 500px;
+  width: 350px;
+  border: 1px solid lightgrey;
+  padding: 5px;
+}
+
+.chat-box {
+  display: inline-block;
+  background-color: lightgrey;
+  border: 1px solid darkgrey;
+  margin-right: 10px;
+}
+
+.chat-title {
+  text-align: center;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.page-header {
+  display: inline-block;
+  margin: 0;
+}
+
+.panel, .panel-default {
+  width: 100%;
+}
+
+.panel-heading {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.panel-body {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.panel-user {
+  flex-direction: row;
+  direction: rtl;
+}
+
+.controller-logistics {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.torrent-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.torrent-downloading {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.torrent-seeding {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.torrent-progress {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.torrent-time-remaining {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.torrent-connections {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.torrent-controls {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.btn-control {
+  font-weight: 800;
+  margin: 10px;
+}
+
+#start {
+  background-color: #1fd125;
+  border-color: #16a01b;
+}
+
+#pause {
+  background-color: deepskyblue;
+  border-color: #369bb4;
+}
+
+#stop {
+  background-color: tomato;
+  border-color: #c03232;
+}
+

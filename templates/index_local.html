@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Python Websockets Chat Demo</title>
+  <link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="../static/css/application.css" rel="stylesheet" media="screen">
+  <!--
+      Comment out when deployed
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/application.css" rel="stylesheet" media="screen">
+    -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- <div class="sidebar-container">
+      <div class="sidebar">
+      </div>
+    </div> -->
+
+    <div class="content-container">
+
+      <div class="video-container">
+      </div>
+
+      <div class="chat-box">
+        <div class="page-header">
+          <h3 class="chat-title">chat</h3>
+          <div id="chat-text">
+            <div class="panel panel-default">
+              <div class="panel-heading">fsfs</div>
+              <div class="panel-body">dsasgsag</div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">fsfs</div>
+              <div class="panel-body">asfsfsgsdgsd</div>
+            </div>
+            <div class="panel panel-default panel-user">
+              <div class="panel-heading">user</div>
+              <div class="panel-body">Hello world</div>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <form id="input-form" class="form-inline">
+            <div class="form-group">
+              <input id="input-handle" type="text" class="form-control" placeholder="Enter handle" autofocus />
+            </div>
+            <div class="form-group">
+              <input id="input-text" type="text" class="form-control" placeholder="Enter chat text here!" autofocus />
+            </div>
+            <button class="btn btn-primary" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="controller-logistics">
+      <div class="torrent-controls">
+        <button class="btn btn-primary btn-control" id="start">start</button>
+        <!-- <button class="btn btn-primary btn-control" id="pause">pause</button> -->
+        <button class="btn btn-primary btn-control" id="stop">stop</button>
+      </div>
+      <div class="torrent-info">
+        <span class="torrent-status torrent-downloading" id="downloading">Downloading: ---</span>
+        <span class="torrent-status torrent-seeding" id="seeding">Seeding: ---</span>
+        <span class="torrent-status torrent-progress" id="progress">Progress: n/a</span>
+        <span class="torrent-status torrent-time-remaining" id="time-remaining">ETA: n/a</span>
+        <span class="torrent-status torrent-connections" id="connections">Connections: ---</span>
+      </div>
+    </div>
+  </div>
+
+  <!--
+      Comment out when deployed
+  <script type="text/javascript" src="static/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="static/js/reconnecting-websocket.min.js"></script>
+  <script type="text/javascript" src="static/js/webtorrent.min.js"></script>
+  <script type="text/javascript" src="static/js/application.js"></script>
+  <script type="text/javascript" src="static/js/videoplayer.js"></script>
+    -->
+
+  <script type="text/javascript" src="../static/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../static/js/reconnecting-websocket.min.js"></script>
+  <script type="text/javascript" src="../static/js/webtorrent.min.js"></script>
+  <script type="text/javascript" src="../static/js/application.js"></script>
+  <script type="text/javascript" src="../static/js/videoplayer.js"></script>
+
+</body>
+
+</html>
