@@ -103,10 +103,6 @@ video {
   width: 100%;
 }
 
-#input-text {
-  height: 100px;
-}
-
 .controller-logistics {
   display: flex;
   flex-direction: column;
