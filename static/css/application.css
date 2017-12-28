@@ -27,7 +27,7 @@ body {
 .content-container {
   display: flex;
   flex-grow: 1;
-  background-color: lightskyblue;
+  background-color: #5d6066;
   padding-left: 50px;
   padding-top: 20px;  
   padding-bottom: 20px;
@@ -35,7 +35,7 @@ body {
 }
 
 .video-container {
-  background-color: black;
+  background-color: #5d6066;
   width: 100%;
   margin-right: 50px;
 }
@@ -43,7 +43,7 @@ body {
 video {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover;  */
 }
 
 #chat-text {
