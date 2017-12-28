@@ -90,8 +90,21 @@ video {
 }
 
 .panel-user {
+  border: 2px solid light orange;
   flex-direction: row;
   direction: rtl;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.form-text {
+  width: 100%;
+}
+
+#input-text {
+  height: 100px;
 }
 
 .controller-logistics {
