@@ -67,6 +67,7 @@ document.querySelector("#stop").addEventListener("click", function (event) {
         console.log("Torrent removed: " + torrentId);
         torrentId = null;
     }
+    $("#connections").text("Connections: " + 0);
     // Destory entire client
     // if (client) {
     //     client.destroy(() => { console.log("client destroyed") });
