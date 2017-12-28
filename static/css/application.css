@@ -59,6 +59,7 @@ video {
   background-color: lightgrey;
   border: 1px solid darkgrey;
   margin-right: 10px;
+  height: 100%;
 }
 
 .chat-title {
