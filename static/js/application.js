@@ -31,7 +31,7 @@ outbox.onclose = function(){
     this.outbox = new WebSocket(outbox.url);
 };
 
-$("#btn-submit").on("submit", function(event) {
+$("#input-form").on("submit", function(event) {
   event.preventDefault();
   var handle = $("#input-handle")[0].value;
   var text   = $("#input-text")[0].value;
